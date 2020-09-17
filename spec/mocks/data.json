@@ -1,0 +1,11 @@
+[{
+    "path": "/api/calculations/bishop/:startNumber/:endNumber",
+    "methods": "['GET']",
+    "middleware": "['anonymous']"
+  },
+  {
+    "path": "/",
+    "methods": "['GET']",
+    "middleware": "['anonymous']"
+  }
+]
